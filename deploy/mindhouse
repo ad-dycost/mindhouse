@@ -1,0 +1,16 @@
+<VirtualHost *:8000>
+	ServerAdmin webmaster@localhost
+
+    # Логи
+	ErrorLog    /home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/logs/error.log
+	CustomLog   /home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/logs/access.log common
+
+    # wsgi-обработчик
+	WSGIScriptAlias / /home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/deploy/django.wsgi
+    # Параметры запуска wsgi
+	WSGIDaemonProcess dw-site user=ad group=ad home=/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/ \
+                      processes=2 threads=4 maximum-requests=100 display-name=apache-dw-wsgi
+	WSGIProcessGroup dw-site
+
+
+</VirtualHost>

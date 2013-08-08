@@ -1,0 +1,73 @@
+body {background-color:#CAC5C4;}
+
+#top {
+	width:100%;
+	min-height:40px;
+}
+
+.plot, #manage {
+	position: relative;
+	float:left;
+	min-width:500px;
+	width:33%;
+}
+
+.button_area {
+	width:95%;
+	
+	
+}
+
+h1 {font-family:ubuntu, verdana, sans-serif;
+	text-align: center;}
+
+h2 {
+	padding-right:15%;
+	font-family: serif;
+	font-size: 120%;
+	margin-top:15px;
+	margin-bottom:5px;
+	text-align:right;
+}
+
+canvas {
+	position: relative;
+	float: right;
+	width:95%;
+	overflow: hidden;
+	border: 5px solid #000000;
+	border-radius:5%;
+}
+
+canvas:hover {
+	box-shadow:0 0 10px #4D4D4D;
+}
+
+button {
+	float: right;
+	text-align: center;
+	vertical-align: top;
+	width:33%;
+	padding:0px;
+	outline:0px;
+	border:0px;
+	margin:0px;
+	border-radius:15px;
+	font-size:105%;
+	font-family: ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+button.day {
+	background: linear-gradient(#D7B6AF, #CC6A56);
+}
+
+button.month {
+	background: linear-gradient(#84A385, #56CC59);
+}
+
+button:hover{
+	box-shadow:0 0 10px #4D4D4D;
+	background-color:#ADADAD;
+}
+
+
