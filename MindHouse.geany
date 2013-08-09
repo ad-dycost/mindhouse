@@ -17,21 +17,19 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=2
+current_page=7
 FILE_NAME_0=1409;HTML;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/templates/index.html;0;4
 FILE_NAME_1=907;CSS;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/style/style.css;0;4
-FILE_NAME_2=5045;Javascript;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/draw.js;0;4
-FILE_NAME_3=1236;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/calc.js;0;4
-FILE_NAME_4=1566;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/Chart.js;0;4
-FILE_NAME_5=0;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage.py;0;4
-FILE_NAME_6=4016;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/settings.py;0;4
-FILE_NAME_7=0;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/urls.py;0;4
-FILE_NAME_8=141;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/models.py;0;4
-FILE_NAME_9=778;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/views.py;0;4
-FILE_NAME_10=16755;None;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/logs/access_log;0;4
-FILE_NAME_11=0;None;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/logs/error_log;0;4
-FILE_NAME_12=287;Python;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/test_bd.py;0;4
-FILE_NAME_13=1756;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/battleship/scripts/base.js;0;4
+FILE_NAME_2=146;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/draw.js;0;4
+FILE_NAME_3=146;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/calc.js;0;4
+FILE_NAME_4=438;None;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/deploy/mindhouse;0;4
+FILE_NAME_5=42;None;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/deploy/django.wsgi;0;4
+FILE_NAME_6=254;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage.py;0;4
+FILE_NAME_7=2723;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/settings.py;0;4
+FILE_NAME_8=234;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/urls.py;0;4
+FILE_NAME_9=232;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/models.py;0;4
+FILE_NAME_10=231;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/views.py;0;4
+FILE_NAME_11=292;Python;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/test_bd.py;0;4
 
 [VTE]
 last_dir=/mnt/agrablo/EVOLUADO/SCIENCOLABORO/Programado/Home_build
