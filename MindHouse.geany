@@ -17,19 +17,21 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=7
-FILE_NAME_0=1409;HTML;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/templates/index.html;0;4
+current_page=2
+FILE_NAME_0=1250;HTML;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/templates/index.html;0;4
 FILE_NAME_1=907;CSS;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/style/style.css;0;4
-FILE_NAME_2=146;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/draw.js;0;4
+FILE_NAME_2=1050;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/draw.js;0;4
 FILE_NAME_3=146;Javascript;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/static/scripts/calc.js;0;4
 FILE_NAME_4=438;None;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/deploy/mindhouse;0;4
 FILE_NAME_5=42;None;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/deploy/django.wsgi;0;4
 FILE_NAME_6=254;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage.py;0;4
 FILE_NAME_7=2723;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/settings.py;0;4
-FILE_NAME_8=234;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/urls.py;0;4
-FILE_NAME_9=232;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/models.py;0;4
-FILE_NAME_10=231;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/views.py;0;4
-FILE_NAME_11=292;Python;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/test_bd.py;0;4
+FILE_NAME_8=677;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/urls.py;0;4
+FILE_NAME_9=364;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/models.py;0;4
+FILE_NAME_10=504;Python;0;16;1;1;0;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/views.py;0;4
+FILE_NAME_11=267;Python;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/constants.py;0;4
+FILE_NAME_12=292;Python;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/manage_pressure/test_bd.py;0;4
+FILE_NAME_13=0;None;0;16;1;1;1;/home/ad/Документы/SCIENCOLABORO/Programado/mindhouse/logs/access.log;0;4
 
 [VTE]
 last_dir=/mnt/agrablo/EVOLUADO/SCIENCOLABORO/Programado/Home_build

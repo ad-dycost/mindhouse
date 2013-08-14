@@ -11,19 +11,19 @@
 		<div class="plot">
 			<h2>График 1</h2>
 			<div class="button_area">
-				<button class="day" onclick="request_data('p1', 86400, 'hour', ctxp1, area1, n_grid_x_day)" >За день</button><button class="month" onclick="request_data('p1', 2592000, 'day', ctxp1, area1, n_grid_x_month)">За месяц</button>
+				<button class="day" onclick="request_data('p1', 86400, 'hour', n_grid_x_day)" >За день</button><button class="month" onclick="request_data('p1', 2592000, 'day', n_grid_x_month)">За месяц</button>
 			</div>
 			<canvas id='area_1'>Обновите браузер</canvas></div>
 		<div class="plot">
 			<h2>График 2</h2>
 			<div class="button_area">
-				<button class="day" onclick="request_data('p2', 86400, 'hour')">За день</button><button class="month" onclick="request_data('p2', 2592000, 'day')">За месяц</button>
+				<button class="day" onclick="request_data('p2', 86400, 'hour', n_grid_x_day)">За день</button><button class="month" onclick="request_data('p2', 2592000, 'day', n_grid_x_month)">За месяц</button>
 			</div>
 			<canvas id='area_2'>Обновите браузер</canvas></div>
 		<div class="plot">
 			<h2>График 3</h2>
 			<div class="button_area">
-				<button class="day" onclick="request_data('m1', 86400, 'hour')">За день</button><button class="month" onclick="request_data('m1', 2592000, 'day')">За месяц</button>
+				<button class="day" onclick="request_data('m1', 86400, 'hour', n_grid_x_day)">За день</button><button class="month" onclick="request_data('m1', 2592000, 'day', n_grid_x_month)">За месяц</button>
 			</div>
 			<canvas id='area_3'>Обновите браузер</canvas></div>
 		<div id="manage"></div>

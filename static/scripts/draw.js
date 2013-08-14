@@ -32,6 +32,8 @@ var color_other = "#0000FF";
 var min_p = -1;
 var max_p = 1;
 
+var data_block_conformity = {"p1": [area1, ctxp1, min_p, max_p], "p2": [area2, ctxp2, min_p, max_p],  "m1": [area3, ctxm1, 0, 2]};
+
 var csrftoken = getCookie('csrftoken');
 
 // Рисуем сетку по вертикали
@@ -133,9 +135,10 @@ function plot_data(context_id, data, max_x, min_y, max_y, data_0) {
 
 
 // Отправка запроса на новые координаты для графика
-function request_data(type, range, rounding, context_id, id_name, n_grid_x) {
+function request_data(type, range, rounding, n_grid_x) {
 	var adress = '/datasend' + type;
-	var text = JSON.stringify(range);
+	var data = [range, type];
+	var text = JSON.stringify(data);
 	var xhr = new XMLHttpRequest();
 	xhr.open('POST', adress, true);
 	xhr.setRequestHeader("X-CSRFToken", csrftoken);
@@ -144,7 +147,7 @@ function request_data(type, range, rounding, context_id, id_name, n_grid_x) {
 		if (xhr.readyState != 4) return;
 		data = JSON.parse(xhr.responseText);
 		convertion_data(data);
-		redraw(ctxp1, area1, n_grid_x, data, rounding, range);
+		redraw(type, n_grid_x, data, rounding, range);
 		};
 };
 
@@ -158,19 +161,23 @@ function getCookie(name) {
 };
 
 // Перерисовываем график
-function redraw(context_id, id_name, n_grid_x, data, rounding, delta_date) {
+function redraw(type, n_grid_x, data, rounding, delta_date) {
+	var id_name = data_block_conformity[type][0]
+	var context_id = data_block_conformity[type][1]
+	var min_axes = data_block_conformity[type][2]
+	var max_axes = data_block_conformity[type][3]
 	id_name.width = id_name.width;
 	var date_0 = new Date();
 	var [min_y, max_y, coord_y] = calculate_data_y(data);
 	var  k_scale = calculate_koeff_scale(max_p - min_p);
-	var [coord_grid_min, n_grid_y] = calculate_n_grid_y(min_p, max_p, k_scale);
+	var [coord_grid_min, n_grid_y] = calculate_n_grid_y(min_axes, max_axes, k_scale);
 	date_0.setSeconds(date_0.getSeconds() - delta_date);
 	x_slice = calculate_slice_grid(data, rounding, n_grid_x);
 	draw_grid_vert(context_id, n_grid_x, x_slice);
 	draw_grid_gor(context_id, n_grid_y, 0);
-	plot_data(context_id, data, delta_date, min_p, max_p, date_0);
+	plot_data(context_id, data, delta_date, min_axes, max_axes, date_0);
 	data_text_x = calculate_label_x(rounding, n_grid_x, delta_date);
-	data_text_y = calculate_label_y(n_grid_y, min_p, k_scale);
+	data_text_y = calculate_label_y(n_grid_y, min_axes, k_scale);
 	draw_label_x(context_id, padding_x + x_slice, height_canv + padding_y_top - padding_y, n_grid_x, data_text_x);
 	draw_label_y(context_id, n_grid_y, n_grid_x, data_text_y)
 	//var dataplot = {

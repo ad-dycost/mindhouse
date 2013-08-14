@@ -16,3 +16,7 @@ class Data_pressure_1(models.Model):
 class Data_pressure_2(models.Model):
 	data = models.DateTimeField()
 	pressure = models.FloatField()
+
+class Data_motor(models.Model):
+	data = models.DateTimeField()
+	motor = models.IntegerField()
