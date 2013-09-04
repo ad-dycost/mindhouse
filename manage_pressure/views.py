@@ -18,7 +18,7 @@ def index(request):
 def data_send(request):
 	range_data = json.loads(request.POST.keys()[0])[0]
 	type_data = json.loads(request.POST.keys()[0])[1]
-	obj_data = manage_pressure.constants.DEVICE_ID_MODELS_CONFORMITY[type_data]
+	obj_data = manage_pressure.constants.DEVICE_ID_CONFORMITY["model"][type_data]
 	try:
 		numder_data_range = float(range_data)
 		min_data = datetime.datetime.now() - datetime.timedelta(seconds = numder_data_range)
